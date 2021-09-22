@@ -1,3 +1,5 @@
+/* stili generali */
+
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -14,17 +16,23 @@ header{
     height: 80px;
 }
 
+/* container  */
+
 .container{
     width: 90%;
     max-width: 1150px;
     margin: 0 auto;
 }
 
+/* clearfix  */
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+
+/* bottoni */
 
 .btn{
     font-size: 14px;
@@ -45,10 +53,13 @@ header{
     color: white;
 }
 
+/* hover  */
+
 .btn:hover{
     color: cornflowerblue;
 }
 
+/* header  */
 
 header{
     height: 80px;
@@ -94,6 +105,8 @@ header{
     line-height: 80px;
 }
 
+/* jumbotrone  */
+
 .jumbotrone{
     height: 545px;
     background-image: url(../img/jumbo.png);
@@ -121,8 +134,10 @@ header{
     margin-right: 20px;
 }
 
+/* sezioni  */
+
 .sezione{
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .immagine{
@@ -177,10 +192,11 @@ h3{
 }
 
 .bluebutton{
-    background-color:mediumpurple;
+    background-color:cornflowerblue;
     color: white;
 }
 
+/* footer  */
 
 footer{
     background-color:#23272a;
@@ -228,4 +244,28 @@ ul li, .prelista p{
 .blu{
      color: cornflowerblue;
      font-weight: 600;
+}
+
+.sezione-footer{
+    padding-bottom: 30px;
+    border-bottom:1px solid cornflowerblue;
+}
+
+.b-bottom a{
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.l-bottom a{
+    vertical-align: -25px;
+}
+
+/* applico il bianco con l'hover */
+
+.registrati:hover{
+    color: #fff;
+}
+
+.bluebutton:hover{
+    color: #fff;
 }
