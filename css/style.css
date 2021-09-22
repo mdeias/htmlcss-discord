@@ -84,6 +84,8 @@ header{
 }
 
 .accedi{
+    display: inline-block;
     float: right;
+    line-height: 80px;
 }
 
